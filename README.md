@@ -38,7 +38,7 @@ The dataset structure mirrors common enterprise CRM systems (Salesforce, HubSpot
 The diagram below illustrates the star schema implemented in this project.
 
 The central fact table captures individual sales opportunities, while surrounding dimension tables provide descriptive, organisational and temporal context. Progressive pipeline stages and closed outcomes are modelled as separate dimensions to avoid artificial funnel sequencing and ensure accurate conversion analysis.
-![Data Model Diagram](screenshots/data-model.png)
+![Data Model Diagram](data-model.png)
 
 ## Data Preparation
 
@@ -124,5 +124,6 @@ This analytical framework can be readily adapted to other pipeline based use cas
 Questions or feedback? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/lunapang/) or open an issue in this repository.
 
 ---
+
 
 *Built as a portfolio project to demonstrate end-to-end Power BI capabilities | Data: Maven Analytics CRM Dataset*
